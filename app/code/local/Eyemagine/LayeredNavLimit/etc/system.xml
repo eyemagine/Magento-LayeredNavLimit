@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * EYEMAGINE - The leading Magento Solution Partner
+ *
+ * Layered Nav Limit
+ *
+ * @author    EYEMAGINE <magento@eyemaginetech.com>
+ * @category  Eyemagine
+ * @package   Eyemagine_LayeredNavLimit
+ * @copyright Copyright (c) 2014 EYEMAGINE Technology, LLC (http://www.eyemaginetech.com)
+ * @license   http://www.eyemaginetech.com/license.txt
+ */
+-->
+<config>
+    <sections>
+        <catalog>
+            <groups>
+                <layered_navigation translate="label">
+                    <fields>
+                        <limit translate="label">
+                            <label>More/Less Limit</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>0 to disable</comment>
+                        </limit>
+                    </fields>
+                </layered_navigation>
+            </groups>
+        </catalog>
+    </sections>
+</config>
