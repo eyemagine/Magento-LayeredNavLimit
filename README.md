@@ -1,12 +1,14 @@
 Magento-LayeredNavLimit
 ==============================
 
-Limit layered navigation to X values and show a more/less link
+Limit layered navigation to X values and show a more/less link.
+
+![Example](http://i.imgur.com/HsC7lRX.png)
 
 ## Installation
 
 1. Download the files and copy to your Magento installation folder.
-2. Clear Magento caches
+2. Clear Magento caches.
 
 ### Installation with Modman
 
@@ -16,8 +18,8 @@ Limit layered navigation to X values and show a more/less link
 
 ## Configuration
 
-The limit of items to be shown will default to 5.  This can be changed in System > Configuration > Catalog > Layered Navigation > More/Less Limit
+The limit of items to be shown will default to 5.  This can be changed in System > Configuration > Catalog > Layered Navigation > More/Less Limit.
 
 ## Requirements
 
-This module requires the jQuery javascript library
+This module requires the jQuery javascript library.
