@@ -1,0 +1,21 @@
+/**
+ * EYEMAGINE - The leading Magento Solution Partner
+ *
+ * Layered Nav Limit
+ *
+ * @author    EYEMAGINE <magento@eyemaginetech.com>
+ * @category  Eyemagine
+ * @package   Eyemagine_LayeredNavLimit
+ * @copyright Copyright (c) 2014 EYEMAGINE Technology, LLC (http://www.eyemaginetech.com)
+ * @license   http://www.eyemaginetech.com/license.txt
+ */
+.lnl-hidden {
+    display: none;
+}
+.lnl-hidden.lnl-active {
+    display: list-item;
+}
+#narrow-by-list dd li .lnl-more,
+#narrow-by-list dd li .lnl-less {
+    color: #2175b5;
+}

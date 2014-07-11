@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * EYEMAGINE - The leading Magento Solution Partner
+ *
+ * Layered Nav Limit
+ *
+ * @author    EYEMAGINE <magento@eyemaginetech.com>
+ * @category  Eyemagine
+ * @package   Eyemagine_LayeredNavLimit
+ * @copyright Copyright (c) 2014 EYEMAGINE Technology, LLC (http://www.eyemaginetech.com)
+ * @license   http://www.eyemaginetech.com/license.txt
+ */
+-->
+<layout version="0.1.0">
+    <catalog_category_view>
+        <reference name="head">
+            <action method="addCss" ifconfig="catalog/layered_navigation/limit">
+                <stylesheet>eyemagine/layerednavlimit/css/layerednavlimit.css</stylesheet>
+            </action>
+            <action method="addItem" ifconfig="catalog/layered_navigation/limit">
+                <type>skin_js</type>
+                <stylesheet>eyemagine/layerednavlimit/js/layerednavlimit.js</stylesheet>
+            </action>
+        </reference>
+    </catalog_category_view>
+</layout>

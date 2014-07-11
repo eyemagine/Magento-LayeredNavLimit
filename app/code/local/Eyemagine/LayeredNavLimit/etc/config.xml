@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * EYEMAGINE - The leading Magento Solution Partner
+ *
+ * Layered Nav Limit
+ *
+ * @author    EYEMAGINE <magento@eyemaginetech.com>
+ * @category  Eyemagine
+ * @package   Eyemagine_LayeredNavLimit
+ * @copyright Copyright (c) 2014 EYEMAGINE Technology, LLC (http://www.eyemaginetech.com)
+ * @license   http://www.eyemaginetech.com/license.txt
+ */
+-->
+<config>
+    <modules>
+        <Eyemagine_LayeredNavLimit>
+            <version>1.0.0</version>
+        </Eyemagine_LayeredNavLimit>
+    </modules>
+    <global>
+        <blocks>
+            <layerednavlimit>
+                <class>Eyemagine_LayeredNavLimit_Block</class>
+            </layerednavlimit>
+            <catalog>
+                <rewrite>
+                    <layer_filter_attribute>Eyemagine_LayeredNavLimit_Block_Catalog_Layer_Filter_Attribute</layer_filter_attribute>
+                    <layer_filter_category>Eyemagine_LayeredNavLimit_Block_Catalog_Layer_Filter_Category</layer_filter_category>
+                    <layer_filter_price>Eyemagine_LayeredNavLimit_Block_Catalog_Layer_Filter_Price</layer_filter_price>
+                </rewrite>
+            </catalog>
+        </blocks>
+        <helpers>
+            <layerednavlimit>
+                <class>Eyemagine_LayeredNavLimit_Helper</class>
+            </layerednavlimit>
+        </helpers>
+    </global>
+    <default>
+        <catalog>
+            <layered_navigation>
+                <limit>5</limit>
+            </layered_navigation>
+        </catalog>
+    </default>
+    <frontend>
+        <layout>
+            <updates>
+                <layerednavlimit module="layerednavlimit">
+                    <file>eyemagine/layerednavlimit.xml</file>
+                </layerednavlimit>
+            </updates>
+        </layout>
+    </frontend>
+</config>
