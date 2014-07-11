@@ -2,4 +2,4 @@ app/code/local/Eyemagine/LayeredNavLimit                              app/code/l
 app/design/frontend/base/default/layout/eyemagine/layerednavlimit.xml app/design/frontend/base/default/layout/eyemagine/layerednavlimit.xml
 app/design/frontend/base/default/template/eyemagine/layerednavlimit   app/design/frontend/base/default/template/eyemagine/layerednavlimit
 app/etc/modules/Eyemagine_LayeredNavLimit.xml                         app/etc/modules/Eyemagine_LayeredNavLimit.xml
-skin/frontend/base/default/template/eyemagine/layerednavlimit         skin/frontend/base/default/template/eyemagine/layerednavlimit
+skin/frontend/base/default/eyemagine/layerednavlimit                  skin/frontend/base/default/eyemagine/layerednavlimit
